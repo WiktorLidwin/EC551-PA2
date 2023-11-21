@@ -1,0 +1,13 @@
+{
+    "Number_of_LUTs": 100,
+    "LutType" : 4,
+    "FullyConnected" : false,
+    "Partial_arch" : [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2], 
+    "Number_of_inputs" : 10,
+    "Number_of_outputs" : 3,
+    "Expressions" : [
+        [["A", "B", "C", "D"], ["E", "F", "B"],["E", "F", "B'"] ,["E", "F", "A'"], ["G", "H"]],
+        [["A", "B", "C", "D"], ["E", "F"], ["G", "I"]],
+        [["A", "B", "C", "D"], ["G", "J"]]
+    ]
+}
